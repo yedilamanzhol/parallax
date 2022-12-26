@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="gsap/gsap.min.js" defer></script>
+  <script src="gsap/ScrollSmoother.min.js" defer></script>
+  <script src="gsap/ScrollTrigger.min.js" defer></script>
+  <script src="app.js" defer></script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="content">
+
+      <header class="main-header">
+        <div class="layers">
+          <div class="layer layers-head">
+            <div class="layers-caption">Welcome to Parallax</div>
+            <div class="layers-title">Fairy Forest</div>
+          </div>
+          <div class="layer layers-base" style="background-image: url(img/layer-base.png)"></div>
+          <div class="layer layers-middle" style="background-image: url(img/layer-middle.png)"></div>
+          <div class="layer layers-front" style="background-image: url(img/layer-front.png)"></div>
+        </div>
+      </header>
+      
+      <article class="main-article" style="background-image: url(img/dungeon.jpg);">
+        <div class="article-content">
+          <h2 class="article-header">To be continued</h2>
+          <p class="article-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iure magnam ducimus aspernatur, dolorum beatae nisi autem, alias nesciunt voluptatibus quam, tenetur sit ullam error minima laborum! Voluptate laborum similique accusamus natus!</p>
+        </div>
+        <div class="copy">©2022 Yedil Amanzhol</div>
+      </article>
+
+    </div>
+  </div>
+
+</body>
+</html>
